@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.even-odd-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: roboto;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 32px;
+  color: #0f172a;
+}
+.count-para {
+  font-size: 23px;
+  color: #334155;
+}
+.button {
+  font-size: 14px;
+  color: #1e293b;
+  padding: 8px 32px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+.hint {
+  color: #334155;
+  font-size: 10px;
+}
+@media screen and  (min-width:768px){
+  .even-odd-container{
+    min-width: 600px;
+    min-height: 500px;
+  }
+}
+@media screen and  (min-width:992px){
+  .even-odd-container{
+    min-width: 800px;
+    min-height: 600px;
+  }
+}
